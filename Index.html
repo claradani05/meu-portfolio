@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Pessoal | Clara </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+    <nav class="navegacao ">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contato</a>
+            </li>
+        </ul>
+
+    </nav>
+
+
+    <main id="inicio" class="cabecalho">
+
+        <img src="img/clara_icon.jpg" alt="Foto de Clara Danielle" class="foto-perfil">
+        <h1> Clara Danielle </h1>
+        <p class="cabecalho-subtitulo"> Estudante de Análise e Desenvolvimento de Sistemas </p>
+
+    </main>
+
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis aut, similique et exercitationem
+                itaque ut suscipit iure nobis? Quo, dignissimos dolor! Repellendus nobis veritatis facere labore ad
+                molestiae earum quia.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+                <img src="img/projeto1_icon.jpg" alt="Projeto 1" class="projetos-imagens">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Projeto1</h3>
+                    <p class="paragrafo-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ab!
+                        Voluptatibus asperiores mollitia quisquam quasi optio ea magni, inventore velit beatae eius
+                        suscipit obcaecati consequatur blanditiis? Eligendi dolorem consequuntur est?</p>
+
+                </div>
+
+
+            </div>
+            <div class="projetos-card">
+                <img src="img/computer_icon.jpg" alt="Projeto 2" class="projetos-imagens">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Projeto2</h3>
+                    <p class="paragrafo-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ab!
+                        Voluptatibus asperiores mollitia quisquam quasi optio ea magni, inventore velit beatae eius
+                        suscipit obcaecati consequatur blanditiis? Eligendi dolorem consequuntur est?</p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="img/console_icon.jpg" alt="Projeto 3" class="projetos-imagens">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Projeto3</h3>
+                    <p class="paragrafo-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ab!
+                        Voluptatibus asperiores mollitia quisquam quasi optio ea magni, inventore velit beatae eius
+                        suscipit obcaecati consequatur blanditiis? Eligendi dolorem consequuntur est?</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+        <form class="formulario-contato" id="formulario">
+
+            <div class="grupo-formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" class="campo-formulario"
+                    required>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" class="campo-formulario"
+                    required>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" class="campo-formulario" rows="6" required></textarea>
+            </div>
+
+            <button type="button" class="botao-enviar" onclick="enviarWhatsApp()">Enviar Mensagem</button>
+
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
