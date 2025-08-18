@@ -14,19 +14,15 @@
     <nav class="navegacao ">
         <ul class="menu">
             <li>
-                <a href="#inicio" class="menu-link">Início</a>
+                <a href="index.html" class="menu-link">Início</a>
             </li>
             <li>
-                <a href="#sobre" class="menu-link">Sobre</a>
+                <a href="portfolio.html" class="menu-link">Portfólio</a>
             </li>
             <li>
-                <a href="#projetos" class="menu-link">Projetos</a>
-            </li>
-            <li>
-                <a href="#contatos" class="menu-link">Contato</a>
+                <a href="informacoes.html" class="menu-link">Sobre Mim</a>
             </li>
         </ul>
-
     </nav>
 
 
@@ -39,56 +35,7 @@
     </main>
 
 
-    <section id="sobre" class="sobre">
-        <h2 class="sobre-titulo">Sobre Mim</h2>
-        <div class="sobre-caixa">
-            <p class="sobre-paragrafo">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis aut, similique et exercitationem
-                itaque ut suscipit iure nobis? Quo, dignissimos dolor! Repellendus nobis veritatis facere labore ad
-                molestiae earum quia.
-            </p>
-        </div>
 
-    </section>
-
-
-    <section id="projetos" class="projetos">
-        <h2 class="projetos-titulo">Meus Projetos</h2>
-        <div class="projetos-caixa">
-            <div class="projetos-card">
-                <img src="img/projeto1_icon.jpg" alt="Projeto 1" class="projetos-imagens">
-                <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Projeto1</h3>
-                    <p class="paragrafo-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ab!
-                        Voluptatibus asperiores mollitia quisquam quasi optio ea magni, inventore velit beatae eius
-                        suscipit obcaecati consequatur blanditiis? Eligendi dolorem consequuntur est?</p>
-
-                </div>
-
-
-            </div>
-            <div class="projetos-card">
-                <img src="img/computer_icon.jpg" alt="Projeto 2" class="projetos-imagens">
-                <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Projeto2</h3>
-                    <p class="paragrafo-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ab!
-                        Voluptatibus asperiores mollitia quisquam quasi optio ea magni, inventore velit beatae eius
-                        suscipit obcaecati consequatur blanditiis? Eligendi dolorem consequuntur est?</p>
-                </div>
-            </div>
-            <div class="projetos-card">
-                <img src="img/console_icon.jpg" alt="Projeto 3" class="projetos-imagens">
-                <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Projeto3</h3>
-                    <p class="paragrafo-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ab!
-                        Voluptatibus asperiores mollitia quisquam quasi optio ea magni, inventore velit beatae eius
-                        suscipit obcaecati consequatur blanditiis? Eligendi dolorem consequuntur est?</p>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
 
 
     <section id="contatos" class="contatos">
@@ -109,13 +56,31 @@
 
             <div class="grupo-formulario">
                 <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" class="campo-formulario" rows="6" required></textarea>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" class="campo-formulario"
+                    rows="6" required></textarea>
             </div>
 
             <button type="button" class="botao-enviar" onclick="enviarWhatsApp()">Enviar Mensagem</button>
 
         </form>
     </section>
+    <section id="comentarios" class="comentarios">
+        <h2 class="comentarios-titulo">Comentários</h2>
+
+        <form id="formulario-comentarios">
+            <textarea id="novo-comentario-texto" placeholder="Escreva seu comentário aqui..." required></textarea>
+            <button type="submit">Enviar Comentário</button>
+        </form>
+
+        <div id="lista-comentarios">
+        </div>
+    </section>
+
+    <footer>
+        <p>Conecte-se comigo:</p>
+        <a href="https://www.linkedin.com/in/clara-danielle-47216a2aa/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/claradani05" target="_blank">GitHub</a>
+    </footer>
     <script src="script.js"></script>
 </body>
 
